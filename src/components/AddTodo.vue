@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import uuid from 'uuid';
+// import uuid from 'uuid';
 export default {
   name: 'AddTodo',
   data() {
@@ -20,7 +20,6 @@ export default {
   methods: {
     addTodo() {
       const newTodo = {
-        id: uuid.v4(),
         title: this.title,
         completed: false
       };
@@ -36,6 +35,7 @@ export default {
 <style scoped>
   form {
     display: flex;
+    height: 100%;
   }
   input[type="text"] {
     flex: 10;
