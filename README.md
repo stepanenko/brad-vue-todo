@@ -1,2 +1,4 @@
 
-## Empty_3
+## Go Essential Training
+
+LinkedIn Instructor: **Miki Tebeka**
